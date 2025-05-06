@@ -35,7 +35,7 @@ data_plot <- us_states |>
     title = "What states are likely more affected by the termination of the NSF grants?",
     subtitle = "In April 2025, hundreds of grants were abruptly terminated.",
     caption = "Data: Grant Watch",
-    fill = "Percentage of funding granted"
+    fill = "% of funding"
   )
 
 ggsave(
